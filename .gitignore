@@ -1,0 +1,5 @@
+.env
+venv/
+logs/
+exports/
+__pycache__/
