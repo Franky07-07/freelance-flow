@@ -1,0 +1,13 @@
+Python Notes : 
+
+.replace(" ", "") - used to replace the spaces with "".
+**criteria - "Accept any number of named arguments and store them in a dictionary called criteria
+   	Example: build_filter(status="ACTIVE", client_id=101) 
+	("status = %s AND client_id = %s", ("ACTIVE", 101))
+
+clauses = [] ,params = [] - creates an empty lists.
+
+clause_string = " AND ".join(clauses)
+ans  - It joins all the conditions inside the clauses list using AND.
+
+
